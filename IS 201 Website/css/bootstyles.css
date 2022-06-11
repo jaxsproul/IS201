@@ -1,0 +1,80 @@
+
+<!--Jaxon Sproul, 06/11/2022-->
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    
+}
+.color{
+    color: white;
+}
+body { 
+    /*background-color: #555555;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+
+}
+
+.common { 
+   /*background-color: #cccccc;
+   border: solid 2px white;*/
+   position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 64px;
+    z-index: 1;
+    padding-top: 20px;
+    border-right: solid 1.5px red;
+}
+
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 64px;
+    padding-right: 5px;
+
+}
+
+.rightmenu {
+    top: 114px;
+    width: 100px;
+    right: 5px;
+    bottom: 64px;
+    border-left: solid 1.5px red;
+    padding-left: 5px;
+
+}
+
+.footer {
+    height: 10px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    position: fixed;
+}
+
+.subheader {
+    float: right;
+    border: solid 2px rgb(170, 8, 8);
+}
